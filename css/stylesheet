@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(http://thumbs.dreamstime.com/x/internet-globalization-17642997.jpg);
+    background-size: 41%, 100%;
+    overflow: auto;
+    height: 100%;
+    position:fixed;
+  
+}
+
+main{
+    background: linear-gradient(to right, #F8F8F8, #3366CC 90%);
+    float: right;
+    width: 60%;
+    height: 100%;
+    margin-top: -10px;
+    position: relative;
+    overflow: auto;
+    z-index: 2;
+    margin-right: -20px;
+
+
+}
+
+div{
+    border-radius: 5px;
+}
+
+#banner{
+    z-index: 1;
+	position: fixed;
+    margin-top: -20px;
+    background:linear-gradient(to bottom right, #F8F8F8 50%, #3366CC);
+    padding-left: 2%;
+    margin-right: -20px;
+    box-shadow: 3px, 4px, 0, 4px, #000;
+    width: 100%;
+}
+
+#slides{
+    margin-top: 19%;
+    padding-left: 2%;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right:0;
+    font-size: 1.5em;
+}
+
+button {
+    font-size: .4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 2px;
+    color: #fff;
+    background-color: #D8D8D8;
+    background: -webkit-linear-gradient(#D8D8D8, #555);
+    background: linear-gradient(#D8D8D8, #555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+
+}
+
+h1{
+    font-size: 1.9em;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-decoration: none;
+}
+
+.content{
+display:none;
+}
+
+section{
+    width: 98%;
+}
+
+.graphs img {
+    display: inline-block;
+    height: 98%;
+    width: 98%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black; 
+}
+
+.alibaba img{
+    display: inline-block;
+    height: 98%;
+    width: 98%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black; 
+}
+
+.text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.quotes{
+    font-family: "Copperplate Gothic Light", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #505050;
+    text-shadow: 0.05em 0.05em #333;
+    
+}
